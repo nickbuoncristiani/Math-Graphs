@@ -1,0 +1,26 @@
+[{
+  "theorem": [],
+  "theorem2": ["archimedian", "density"],
+  "archimedian": [],
+  "density": ["another"],
+  "another": []
+},
+
+{
+  "theorem": "some info here",
+  "theorem2": "some information about theorem 2 here",
+  "archimedian": "can find number bigger always or something like that. ",
+  "density": "find rationals in between two reals always",
+  "another": "asdf"
+},
+
+{
+  "theorem": "",
+  "theorem2": "",
+  "archimedian": ["Here is some text, enter the word 'implies' here _ to complete the proof. ", "implies"],
+  "density": ["find _ in between two reals always", "rationals"],
+  "another": ["Here is some text _ and _ and _ and _. ", "one", "two", "three", "four"]
+}
+]
+  
+

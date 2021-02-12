@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Analysis",
+        "image": "./imgs/analysis.jpg",
+        "nodes": 267
+    },
+    {
+        "title": "Abstract Algebra",
+        "image": "./imgs/abstract.png",
+        "nodes": 101
+    },
+    {
+        "title": "Complex Analysis",
+        "image": "./imgs/complex.jpg",
+        "nodes": 89
+    },
+    {
+        "title": "Linear Algebra",
+        "image": "./imgs/linalg.png",
+        "nodes": 122
+    },
+    {
+        "title": "Topology",
+        "image": "./imgs/topology.png",
+        "nodes": 269
+    },
+    {
+        "title": "Measure Theory",
+        "image": "./imgs/measure.png",
+        "nodes": 453
+    },
+    {
+        "title": "Combinatorics",
+        "image": "./imgs/comb.jfif",
+        "nodes": 111
+    },
+    {
+        "title": "Number Theory",
+        "image": "./imgs/number.png",
+        "nodes": 123
+    }
+]

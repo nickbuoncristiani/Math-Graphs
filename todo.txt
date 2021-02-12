@@ -1,0 +1,4 @@
+1. get proof writing functionality and node discovery. 
+2. style the overlays. 
+3. statistics page
+4. clean useless ids/classes and stlylesheet

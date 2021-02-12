@@ -1,0 +1,191 @@
+.menu {
+  /*background: url("./imgs/will.jpeg") no-repeat;*/
+  background-size: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar {
+  padding: 0.8rem;
+  background-color: rgb(225, 236, 233);
+}
+
+.navbar-nav li {
+  padding-right: 45px;
+}
+
+.nav-link {
+  font-size: 1.5em !important;
+}
+
+.nav-link i {
+  color: rgb(30, 43, 104);
+}
+
+.fa-meteor {
+  font-size: 3em;
+  color: rgb(33, 51, 110);
+}
+
+.card {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  border-radius: 7%;
+  /*background: #569857;*/
+  /*background: rgb(33, 51, 110);*/
+  background: rgb(53, 71, 130);
+  border-width: 1rem;
+  border-color: rgb(33, 51, 110);
+  color: #fff;
+  max-width: 60%;
+  max-height: 90%;
+  margin: 0 auto;
+}
+
+.card.active,
+.card.active:hover {
+  background: #89a385;
+}
+
+.card:hover {
+  cursor: pointer;
+  background: #c5b4b4;
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-img-top {
+  width: 50%;
+  height: 7vw;
+  object-fit: cover;
+}
+
+/*Nodes*/
+
+.node.given circle {
+  stroke: blue;
+  stroke-width: 1px;
+  fill: orange;
+
+  opacity: 1;
+}
+
+.node.incomplete circle {
+  stroke: blue;
+  stroke-width: 1px;
+  fill: rgb(159, 168, 218);
+
+  opacity: 1;
+}
+
+.node.complete circle {
+  stroke: blue;
+  stroke-width: 1px;
+  fill: rgb(12, 175, 53);
+
+  opacity: 1;
+}
+
+.node circle:hover {
+  cursor: pointer;
+}
+
+g text {
+  pointer-events: none;
+  text-transform: capitalize;
+  font-weight: 100;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.area line {
+  stroke: black;
+  stroke-width: 1px;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.area line:hover {
+  stroke: rgb(167, 167, 182);
+  stroke-width: 2px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  z-index: 5;
+}
+
+.theorem-info {
+  width: 250px;
+  height: 250px;
+
+  display: grid;
+  place-items: center;
+
+  background: rgb(197, 193, 193);
+  border: 2px solid black;
+  text-align: center;
+
+  position: relative;
+}
+
+.proof {
+  width: 250px;
+  height: 250px;
+  padding: 25px 5px 0px 10px;
+
+  background: rgb(200, 200, 200);
+  border: 2px solid black;
+  text-align: left;
+
+  position: relative;
+}
+
+.verdict {
+  width: 150px;
+  height: 75px;
+
+  display: grid;
+  place-items: center;
+
+  background: rgb(219, 219, 209);
+  border: 2px solid black;
+  text-align: center;
+
+  position: relative;
+}
+
+.proof input[type="text"] {
+  width: 40px;
+  display: inline;
+}
+
+.proof input[type="submit"] {
+  margin-top: 10px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  color: black;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: red;
+  transform: scale(1.3);
+}
