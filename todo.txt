@@ -2,3 +2,5 @@
 2. style the overlays. 
 3. statistics page
 4. clean useless ids/classes and stlylesheet
+5. drag around course 
+6. minimap in corner 
