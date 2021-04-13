@@ -1,6 +1,7 @@
 import React from 'react'
 import CourseSelection from './CourseSelection';
 import Learn from './Learn';
+import ProfilePage from './ProfilePage';
 
 class Navbar extends React.Component {
     constructor(props) {
@@ -25,7 +26,7 @@ class Navbar extends React.Component {
                     <li className="nav-item" onClick={() => this.handler(<CourseSelection/>)}>
                       <a className="nav-link" href="#"><i className="fas fa-book"></i> <span>Courses</span></a>
                     </li>
-                    <li className="nav-item" onClick={() => this.handler(<CourseSelection/>)}>
+                    <li className="nav-item" onClick={() => this.handler(<ProfilePage/>)}>
                       <a className="nav-link" href="#"><i className="fas fa-flask"></i> <span>Statistics</span></a>
                     </li>
                     <li className="nav-item" onClick={() => this.handler(<CourseSelection/>)}>

@@ -213,3 +213,37 @@ g text {
   display: inline;
   background: rgb(235, 235, 235);
 }
+
+.ProfilePage {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-basis: 40%;
+}
+
+.col2 {
+  flex-basis: 20%;
+}
+
+.Achievement {
+  display: flex;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.Friends .ProfileCourses {
+  border: 5px solid red;
+  border-radius: 5%;
+}
+
+.ProfilePage .col1 {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+}
