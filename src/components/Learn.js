@@ -104,7 +104,7 @@ class Learn extends React.Component {
                     )}
                 </svg>
             </div>
-            <Overlay overlay={this.state.overlay} infoText={this.state.infoText} proofOutline={this.state.proofOutline} close={()=>{this.setState({overlay: null})}}/>
+            <Overlay overlay={this.state.overlay} infoText={this.state.infoText} proofOutline={this.state.proofOutline} close={()=>{this.setState({overlay: null})}} />
         </section>
 
         )
